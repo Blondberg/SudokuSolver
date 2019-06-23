@@ -1,3 +1,6 @@
+# setup.py - not really sure what this does, but looks cool I guess
+
+
 from setuptools import setup
 
 setup(

@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="645bace0-f97b-45f5-a6c9-3377864800e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/simon.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sudokusolver/common/board.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sudokusolver/common/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sudokusolver/common/test_boards.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudokusolver/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudokusolver/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudokusolver/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudokusolver/common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sudokusolver/src/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudokusolver/solver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sudokusolver/common/messenger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudokusolver/common/board.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudokusolver/common/board.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudokusolver/common/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudokusolver/common/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudokusolver/common/test_boards.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudokusolver/common/test_boards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sudokusolver/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/sudokusolver/solver.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,41 +17,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sudokusolver/solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="225">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
-                <element signature="e#56#94#0" expanded="true" />
+                <element signature="e#56#87#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sudokusolver/common/board.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+              <folding>
+                <element signature="e#67#97#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sudokusolver/common/test_boards.py">
+        <entry file="file://$PROJECT_DIR$/sudokusolver/common/messenger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sudokusolver/common/constants.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="55" selection-start-column="55" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sudokusolver/common/board.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="420">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -94,10 +86,12 @@
         <option value="$PROJECT_DIR$/sudokusolver/constants.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/sudokusolver/tests/test_boards.py" />
-        <option value="$PROJECT_DIR$/sudokusolver/common/constants.py" />
-        <option value="$PROJECT_DIR$/sudokusolver/common/board.py" />
         <option value="$PROJECT_DIR$/sudokusolver/common/test_boards.py" />
+        <option value="$PROJECT_DIR$/sudokusolver/common/messager.py" />
+        <option value="$PROJECT_DIR$/sudokusolver/common/constants.py" />
+        <option value="$PROJECT_DIR$/sudokusolver/common/messenger.py" />
         <option value="$PROJECT_DIR$/sudokusolver/solver.py" />
+        <option value="$PROJECT_DIR$/sudokusolver/common/board.py" />
       </list>
     </option>
   </component>
@@ -286,33 +280,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sudokusolver/common/board.py">
+    <entry file="file://$PROJECT_DIR$/sudokusolver/common/test_boards.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state>
+          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sudokusolver/common/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="55" selection-start-column="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sudokusolver/common/test_boards.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sudokusolver/common/messenger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sudokusolver/solver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="225">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
-            <element signature="e#56#94#0" expanded="true" />
+            <element signature="e#56#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sudokusolver/common/board.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+          <folding>
+            <element signature="e#67#97#0" expanded="true" />
           </folding>
         </state>
       </provider>

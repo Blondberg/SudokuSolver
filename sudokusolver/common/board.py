@@ -49,7 +49,7 @@ class Board(object):
     def get_value(self, col, row):
         return self.board[row - 1][col - 1]
 
-    # Set value of chosen position
+    # Set value v of chosen coordinate coord
     # Takes in the value and a tuple for the coordinate
     def set_value(self, coord, n):
         if isinstance(coord, tuple):
@@ -68,5 +68,9 @@ class Board(object):
                 return True
         return False
 
+    # Check if value v exists in square sqr_n
     def value_in_square(self, sqr_n, v):
-        for row in range()
+        # col = (sqr_n - 1) * 3
+        for i in range((sqr_n - 1) * 3):
+            print(i)
+

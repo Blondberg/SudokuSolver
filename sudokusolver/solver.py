@@ -13,7 +13,7 @@ def run():
 
     board.print()
 
-    print(board.value_in_col(4, 2))
+    board.value_in_square(1, 4)
     # solve_board(board_object.board)
 
 

@@ -1,6 +1,6 @@
 # board.py - contains the sudoku board and print functions for it
 
-import sudokusolver.common.messenger as msgr
+import SudokuSolver.sudokusolver.common.messenger as msgr
 from .test_boards import TOP_ROW1
 
 
@@ -68,5 +68,6 @@ class Board(object):
                 return True
         return False
 
-    def value_in_square(self, sqr_n, v):
+    """def value_in_square(self, sqr_n, v):
         for row in range()
+    """

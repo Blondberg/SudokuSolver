@@ -2,19 +2,22 @@
 # python3 -m sudokusolver
 # from sudokusolver import solver
 # put solver.run() in main to run
+
+
 def solve(board):
     rec_solve(board, 0, 0)
 
+
 def rec_solve(board, row, col):
     for i in range(0, 9):
-        if is_valid(board, row, col, n):
-            
+        if is_valid(board, row, col, i):
+            print("tset")
 
 
 def is_valid(board, row, col, n):
-    return in_square(board, get_square(board, row, col), n) or
-    in_row(board, row, n) or
-    in_col(board, col, n)
+    return in_square(board, get_square(board, row, col), n) or (
+        in_row(board, row, n) or
+        in_col(board, col, n))
 
 
 def get_square(board, row, col):

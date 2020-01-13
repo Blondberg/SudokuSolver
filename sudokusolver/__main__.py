@@ -2,8 +2,6 @@
 # python3 -m sudokusolver
 # from sudokusolver import solver
 # put solver.run() in main to run
-
-
 def solve(board):
     rec_solve(board, 0, 0)
 

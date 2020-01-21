@@ -11,4 +11,5 @@ In terminal:
 
 chmod -x ./SudokuSolver/ (only have to do this once):
 
-python -x ./SudokuSolver/ (this will run the program)
+python -x ./SudokuSolver/ > out.txt (this will run the program and store the result in out.txt)
+
